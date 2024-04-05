@@ -1,0 +1,36 @@
+{
+    "name": "@moccona/prettierrc",
+    "version": "0.0.1",
+    "description": "A simple prettier configuration",
+    "main": "./index.js",
+    "author": "wp.l",
+    "type": "module",
+    "license": "MIT",
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "exports": {
+        ".": "./index.js"
+    },
+    "keywords": [
+        "prettier",
+        "prettier-config"
+    ],
+    "devDependencies": {
+        "@moccona/eslint-config": "latest"
+    },
+    "peerDependencies": {
+        "prettier": "^3.2.5"
+    },
+    "peerDependenciesMeta": {
+        "prettier": {
+            "optional": true
+        }
+    },
+    "eslintConfig": {
+        "extends": [
+            "@moccona/eslint-config"
+        ]
+    }
+}
