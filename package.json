@@ -22,7 +22,7 @@
         "@moccona/eslint-config": "^0.1.6"
     },
     "peerDependencies": {
-        "prettier": "^3.2.5"
+        "prettier": "^3"
     },
     "peerDependenciesMeta": {
         "prettier": {

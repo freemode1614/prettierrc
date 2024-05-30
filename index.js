@@ -60,8 +60,7 @@ const config = {
   arrowParens: "always",
   /**
    * Format only a segment of a file.
-   
-        These two options can be used to format code starting and ending at a given character offset (inclusive and exclusive, respectively).
+   * These two options can be used to format code starting and ending at a given character offset (inclusive and exclusive, respectively).
    */
   rangeStart: 0,
   rangeEnd: Number.POSITIVE_INFINITY,
@@ -75,6 +74,9 @@ const config = {
   endOfLine: "auto",
   embeddedLanguageFormatting: "off",
   singleAttributePerLine: false,
+  /**
+   * prettier plugins
+   */
   plugins: ["prettier-plugin-tailwindcss"],
 };
 
