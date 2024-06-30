@@ -77,7 +77,7 @@ const config = {
   /**
    * prettier plugins
    */
-  plugins: ["prettier-plugin-tailwindcss"],
+  plugins: [],
 };
 
 export default config;
