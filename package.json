@@ -1,6 +1,6 @@
 {
   "name": "@moccona/prettierrc",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple prettier configuration",
   "main": "./index.js",
   "author": "wp.l",
