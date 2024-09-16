@@ -1,37 +1,39 @@
 {
-    "name": "@moccona/prettierrc",
-    "version": "0.0.2",
-    "description": "A simple prettier configuration",
-    "main": "./index.js",
-    "author": "wp.l",
-    "type": "module",
-    "license": "MIT",
-    "publishConfig": {
-        "access": "public",
-        "registry": "https://registry.npmjs.org/"
-    },
-    "exports": {
-        ".": "./index.js"
-    },
-    "keywords": [
-        "prettier",
-        "prettier-config"
-    ],
-    "devDependencies": {
-        "@changesets/cli": "^2.27.1",
-        "@moccona/eslint-config": "^0.1.6"
-    },
-    "peerDependencies": {
-        "prettier": "^3"
-    },
-    "peerDependenciesMeta": {
-        "prettier": {
-            "optional": true
-        }
-    },
-    "eslintConfig": {
-        "extends": [
-            "@moccona/eslint-config"
-        ]
+  "name": "@moccona/prettierrc",
+  "version": "0.0.2",
+  "description": "A simple prettier configuration",
+  "main": "./index.js",
+  "author": "wp.l",
+  "type": "module",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8",
+    "@moccona/eslint-config": "^0.3.3",
+    "eslint": "^9.10.0"
+  },
+  "peerDependencies": {
+    "prettier": "^2 || ^3"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
     }
+  },
+  "eslintConfig": {
+    "extends": [
+      "@moccona/eslint-config"
+    ]
+  },
+  "packageManager": "pnpm@9.7.1"
 }
