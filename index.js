@@ -9,7 +9,7 @@ const config = {
   /**
    * Specify the line length that the printer will wrap on.
    */
-  printWidth: 120,
+  printWidth: 80,
   /**
    * Specify the number of spaces per indentation-level.
    */
